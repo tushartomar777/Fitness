@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins';
+}
+a{
+    color: #ccc;
+    text-decoration: none;
+
+}
+a:hover{
+  color:hsla(9, 98%, 52%, 0.911)
+}
+.wrapper1 {
+  background-color: hsla(210, 25%, 11%, 0.882);
+  height: 100%;
+  width:70%;
+  display: flex;
+  border-radius: 10px;
+}
+.left-wrapper {
+  height: 100%;
+  width: 50%;
+  /* background-color: yellow; */
+}
+.left-wrapper > video {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.right-wrapper {
+  height: 100%;
+  width: 50%;
+}
+.welcome-div {
+  font-family: "poppins";
+  text-align: center;
+  margin: 30px;
+  font-size: 1.3rem;
+  /* padding-top: 10px; */
+  font-weight: 500;
+  /* color: rgba(128, 128, 128, 0.788); */
+  color: hsla(9, 98%, 52%, 0.911);
+}
+
+.user-name,
+.password {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: start;
+  padding-left:80px ;
+  gap:3px;
+  color:#cccccc82;
+
+}
+.user-name{
+    margin-top:40px;
+}
+.password{
+    margin-top:20px
+}
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 250px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+  font-family: "poppins";
+  color: #ccc;
+}
+label{
+    font-size: 14px;
+}
+label:hover{
+  cursor: pointer;
+}
+input::placeholder{
+    font-size: 12px;
+}
+.special-para{
+    font-size: 10px;
+    position:relative;
+    left:160px
+}
+.sign-up{
+    text-align: center;
+    padding: 20px;
+}
+.sign-up>button{
+    height:35px;
+    width: 130px;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: #e9e2e2d9;
+    /* box-shadow: 5px 5px 8px grey; */
+    border:none;
+    cursor:pointer;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+}
+.sign-up > button:hover{
+  background-color: hsla(9, 98%, 52%, 0.769);
+  color:white;
+  font-weight: 00;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+
+}
+.extra-div{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap:90px;
+    font-size: 12px;
+    width: 270px;
+    margin-left:80px;
+    /* font-family: 'Rubik', sans-serif; */
+}
+.line-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    padding: 10px;
+    color:#ccccccc0;
+    
+}
+.line-div>hr{
+    width:150px;
+    height: 1px;
+    border-radius: 1px solid;
+}
+.google-login , .apple-login{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    background-color: hsla(9, 98%, 52%, 0.769);
+    height: 50px;
+    width: 300px;
+    border-radius: 8px;
+    border: none;
+    color: #f6f6f6;
+    
+}
+.google-login:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+  cursor: pointer;
+}
+.apple-login:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+  cursor: pointer;
+}
+.google-login{
+  margin:25px 0px 20px 50px
+}
+.apple-login{
+  margin:30px 0px 20px 50px
+}
+.google-login > img {
+  height:20px;
+  width:20px;
+}
+.apple-login > img {
+  height:23px;
+  width:25px;
+}
